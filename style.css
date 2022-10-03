@@ -1,0 +1,147 @@
+html
+{
+    
+    height:100%;
+    background-image: radial-gradient(circle,white 50%,lightblue 70%,black 90%); 
+    
+}
+.container
+{
+    width:600px;
+    height:430px;
+    border:2px solid black;
+    margin:90px auto;
+    padding:20px;
+    border-radius:40px;
+    position:relative;
+    text-align: center;
+  
+}
+.score-box
+{
+    background-color:#839c9f;
+    border-radius: 10px;
+    box-shadow:0px 2px 2px black ;
+    position: absolute;
+    top:35px;
+    left:500px;
+    width:100px;
+    height:35px;
+    text-align: center;
+    padding-bottom:12px;
+     text-transform: uppercase;
+}
+.score-box #score
+{
+    padding-left: 10px;
+    font-size:18px;
+}
+.alert
+{
+     background-color:#839c9f;
+    border-radius: 10px;
+    box-shadow:0px 2px 2px black ;
+    position: absolute;
+    top:35px;
+    left:270px;
+    width:100px;
+    height:35px;
+    text-align: center;
+    padding-bottom:12px;
+     text-transform: uppercase;
+    display:none;
+}
+.question
+{
+    width:400px;
+    height:120px;
+    font-family:cursive;
+    font-size:100px;
+    border:2px solid  red;
+    margin:90px 100px 0px 100px;
+    border-radius: 20px;
+    padding-bottom: 5px;
+    
+}
+.heading
+{
+     width:400px;
+    border:2px solid black;
+     margin:20px 100px 0px 100px;
+    text-transform: uppercase;
+    font-family: serif;
+    border-radius:20px;
+    
+}
+.answer
+{
+     width:400px;
+     border:2px solid black;
+    height:60px;
+     margin:20px 100px 0px 100px;
+    display:flex;
+    justify-content: center;
+     font-family: serif;
+    border-radius:20px;
+    
+}
+.answer .option
+{
+    float:left;
+    width:20%;
+    border:2px solid black;
+    margin: 20px ;
+    border-radius: 20px;
+}
+.answer .option:hover
+{
+     background-color: black;
+    color: white;
+    
+}
+
+.start
+{
+    margin-top:20px;
+     border:2px solid black;
+    border-radius: 20px;
+     width:20%;;
+    text-transform: uppercase;
+    font-family: serif;
+	height:40px;
+	
+	
+    
+}
+.start:hover
+{
+    background-color: black;
+    color: white;
+}
+.timer
+{
+    position:absolute;
+    top:410px;
+    width:30%;
+    left: 400px;
+    border:2px solid black;
+    border-radius: 20px;
+	display: none;
+	margin-top: 10px;
+	padding: 10px;
+}
+.gameover
+{
+    position: absolute;
+    top:170px;
+    left:130px;
+    width:60%;
+    background-color: black;
+    color:white;
+    text-transform: uppercase;
+    border:2px solid black;
+    border-radius: 20px;
+    font-size:30px;
+    display: none;
+    
+}
